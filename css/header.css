@@ -1,0 +1,80 @@
+.header-top {
+    background-color: var(--DarkBlack);
+}
+.header-top_content {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top_content .left-text {
+    display: flex;
+    gap: 20px;
+}
+
+.header-top_content .left-text p, a {
+    font-family: var(--PTSans);
+    font-size: 14px;
+    color: var(--Gray);
+}
+
+.header-top_content .left-text .vertical-line {
+    display: inline-block;
+    border: 1px solid var(--Gray);
+}
+.header-top_content .right-text a {
+    font-family: var(--PTSans);
+}
+
+
+
+nav {
+    background-color: var(--Black);
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    color: var(--White);
+    font-family: var(--StickNoBills);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items .nav-item {
+    padding: 18px 20px;
+    transition: all .7s ease-in-out;
+}
+
+
+.nav-items .nav-item:hover {
+    background-color: var(--SimpleBlack);
+    cursor: pointer;
+    color: var(--White);
+}
+
+.nav-items .nav-item:hover a{
+    color: var(--White);
+}
+
+.nav-items .nav-item a {
+    font-family: var(--PTSans);
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .7s;
+}
+
+.nav-items .nav-item .cart-icon, .search-icon {
+    color: var(--White);
+    font-size: 16px;
+}

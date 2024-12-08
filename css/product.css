@@ -1,0 +1,107 @@
+.product {
+    height: 530px;
+    display: flex;
+}
+
+.product-left {
+    width: 50%;
+    background-color: var(--DarkBlack);
+}
+
+.product-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-item {
+    width: 150px;
+}
+
+.product-item h3 {
+    color: var(--White);
+    font-family: var(--Playfair);
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.product-item p {
+    color: var(--White);
+    font-family: var(--Playfair);
+    text-align: center;
+}
+
+.product-item .product-item__img-box {
+    width: 150px;
+    height: 220px;
+    background-color: var(--SimpleBlack);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item .product-item__img-box img {
+    width: 150px;
+    object-fit: cover;
+}
+
+.product-right {
+    width: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../images/human-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-right .product-right__title {
+    margin-top: 300px;
+    display: flex;
+}
+
+
+
+
+/*Collection style*/
+.collection {
+    height: 530px;
+    display: flex;
+}
+
+.collection .collection__left-img {
+    width: 50%;
+}
+
+.collection .collection__right-text {
+    width: 50%;
+    background-color: var(--DarkBlack);
+}
+/*Collection style*/
+
+
+
+/* New-product section style */
+.new-product {
+    background-color: var(--DarkBlack);
+    padding: 80px 0;
+}
+
+.new-product-items {
+    gap: 70px;
+}
+/* New-product section style*/
+
+
+footer {
+    background-color: var(--Black);
+}
+
+.footer-brends {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.footer-brends img {
+    width: 200px;
+}
